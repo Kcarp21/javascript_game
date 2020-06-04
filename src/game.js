@@ -116,7 +116,7 @@ function update () {
   if (cursors.up.isDown && player.body.touching.down) {
     player.body.velocity.y = -400
   }
-  // Show an alert modal when score reaches 120
+  // Show an alert modal when score reaches 210
   if (score === 210) {
     alert('You win!')
     score = 0
